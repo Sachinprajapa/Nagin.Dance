@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 145px;
+            height: 25%;
+            margin-right: 2%;
+            border: 2px solid black;
+            box-shadow: 2px 4px 5px ;
+        }
+        img{
+            margin-left: 20%;
+            border: 0.0% solid black;
+            box-shadow: 2px 4px 5px ;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img.png" alt=""id="img"width="40%"height="40%";
+    <form border="2px ">
+    <button type="button"onclick="danceon()">DanceOn</button>
+    <button type="button"onclick="danceoff()">DanceOff</button>
+    </form>
+    <script>
+        function danceon(){
+           
+            document.getElementById("img").src="img1.png";
+            
+        }
+        function danceoff(){
+            document.getElementById('img').src="img.png";
+        }
+    </script>
+</body>
+</html>
